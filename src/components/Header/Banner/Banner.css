@@ -1,0 +1,42 @@
+.follow-p{
+   z-index:10
+}
+
+.follow-wrap{
+   /* top: 165px;
+   left: 1.5rem; */
+   height: 375px;
+   margin: 0px 0px 0px -44px;
+}
+
+.rotate{
+   transform: rotate(180deg);
+ }
+ 
+ .rotate-minus{
+   transform: rotate(-90deg) translate(40px,0px);
+ }
+
+.follow-dash::after{
+   content: "";
+   width: 171px;
+   height: 2px;
+   background-color: #fff;
+   position: absolute;
+   top: 257px;
+   right: -16px;
+   z-index: -1;
+   transform: rotate(
+90deg);
+}
+
+.after-bullet::after{
+   content: "";
+   width: 8px;
+   height: 8px;
+   position: absolute;
+   background-color: #00cf5e;
+   top: 10px;
+   right: -21px;
+   border-radius: 50%;
+}

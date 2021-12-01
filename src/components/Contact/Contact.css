@@ -1,0 +1,26 @@
+.contact-dash::before{
+   content: "";
+   width: 398px;
+   height: 2px;
+   background-color: #fff;
+   top: 19px;
+   left: -134px;
+   z-index: -1;
+   position: absolute;
+   transform: rotate( 
+360deg);
+}
+
+.icon:hover{
+   color: red !important;
+}
+
+.input-select:focus{
+   border: none;
+   outline: none;
+}
+
+.input-select{
+   width: 700px;
+   max-width: 400px !important;
+}

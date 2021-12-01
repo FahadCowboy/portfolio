@@ -1,0 +1,80 @@
+[
+   {
+      "name": "Boot Kingdom",
+      "desc": "Boot kingdom is a MERN Stack project and a CRUD operation is implemented along with a proper admin panel.",
+      "image": "https://ik.imagekit.io/xqucpzloy5c/portfolio/project-images/BootKingdom_dWtQu6aeSlF.png?updatedAt=1638343759015",
+      "liveSite": "https://boot-kingdom.web.app/",
+      "clientSideRepo": "https://github.com/FahadCowboy/boot-kingdom-client-side",
+      "serverSideRepo": "https://github.com/FahadCowboy/boot-kingdom-server-side",
+      "technology": [
+         "React",
+         "Bootstrap",
+         "Express",
+         "MongoDB",
+         "Firebase",
+         "Heroku"
+      ]
+   },
+   {
+      "name": "Explore BD",
+      "desc": "Explore BD is a MERN project. Firebase authentication for login or sign up is implemented. Server is got hosted into Heroku server",
+      "image": "https://ik.imagekit.io/xqucpzloy5c/portfolio/project-images/ExploreBD_MDDp2hxtsg.png?updatedAt=1638343759029",
+      "liveSite": "https://explorebangladesh-2b8bb.web.app/",
+      "clientSideRepo": "https://github.com/FahadCowboy/explore-bangladesh-react-ui",
+      "serverSideRepo": "https://github.com/FahadCowboy/explore-bangladesh-express-server",
+      "technology": [
+         "React",
+         "Bootstrap",
+         "Express",
+         "MongoDB",
+         "Firebase",
+         "Heroku"
+      ]
+   },
+   {
+      "name": "MRF Medical Hospital",
+      "desc": "MRF Medical Hospital is created with React. Routing and Dynamic Routing is implemented.",
+      "image": "https://ik.imagekit.io/xqucpzloy5c/portfolio/project-images/MRF-Medical-College_LmyVplAqyS.png?updatedAt=1638343759010",
+      "liveSite": "https://mrf-medical-hospital.web.app/",
+      "clientSideRepo": "https://github.com/FahadCowboy/mrf-medical-hospital",
+      "technology": [
+         "React",
+         "Bootstrap",
+         "Firebase"
+      ]
+   },
+   {
+      "name": "American Kick-boxing Academy",
+      "desc": "AKA was built with React. Normal Routing and Dynamic routing is implemented",
+      "image": "https://ik.imagekit.io/xqucpzloy5c/portfolio/project-images/AmericanKickBoxingAcademy_zBABb9SIxe.png?updatedAt=1638343758983",
+      "liveSite": "https://american-kickboxing-academy.netlify.app",
+      "clientSideRepo": "https://github.com/FahadCowboy/american-kickboxing-academy-react-ui",
+      "technology": [
+         "React"
+      ]
+   },
+   {
+      "name": "Tour Bandarban",
+      "desc": "Tour Bandarban is a Javascript project which was build with Browser DOM. There is nothing but raw Javascript and Browser dom.",
+      "image": "https://ik.imagekit.io/xqucpzloy5c/portfolio/project-images/TourBandarban_iHt9T52ELLD.png?updatedAt=1638343759519",
+      "liveSite": "https://tour-bandarban.netlify.app",
+      "clientSideRepo": "https://github.com/FahadCowboy/tour-bandarban-browser-dom",
+      "technology": [
+         "HTML",
+         "CSS",
+         "Borwser DOM"
+      ]
+   },
+   {
+      "name": "Dev Shop",
+      "desc": "Dev shop is a simple shopping cart. which is created with raw JavaScript and Browser DOM.",
+      "image": "https://ik.imagekit.io/xqucpzloy5c/portfolio/project-images/DevShop_Qt_GUmagiWe.png?updatedAt=1638343759036",
+      "liveSite": "https://dev-shop.netlify.app/",
+      "clientSideRepo": "https://github.com/FahadCowboy/dev-shop",
+      "technology": [
+         "HTML",
+         "CSS",
+         "Borwser DOM"
+      ]
+   }
+]

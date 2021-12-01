@@ -1,0 +1,13 @@
+
+.projects-dash::before{
+   content: "";
+   width: 398px;
+   height: 2px;
+   background-color: #fff;
+   top: 19px;
+   left: -134px;
+   z-index: -1;
+   position: absolute;
+   transform: rotate( 
+360deg);
+}
