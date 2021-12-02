@@ -1,16 +1,16 @@
-
+/* 
  .about-wrap{
    height: 375px;
    margin: 0px -44px 0px 0px;
- }
+ } */
 
 .about-dash::before{
    content: "";
-   width: 398px;
+   width: 200%;
    height: 2px;
    background-color: #fff;
    top: 19px;
-   left: -134px;
+   right: -83px;
    z-index: -1;
    position: absolute;
    transform: rotate( 

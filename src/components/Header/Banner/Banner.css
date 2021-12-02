@@ -1,12 +1,12 @@
 .follow-p{
-   z-index:10
+   z-index:1
 }
 
 .follow-wrap{
    /* top: 165px;
    left: 1.5rem; */
    height: 375px;
-   margin: 0px 0px 0px -44px;
+   margin: 0px 0px 0px -26px;
 }
 
 .rotate{
@@ -29,6 +29,21 @@
    transform: rotate(
 90deg);
 }
+
+.follow-small-screen-dash::after{
+   content: "";
+   width: 200%;
+   height: 2px;
+   background-color: #fff;
+   top: 19px;
+   right: -83px;
+   z-index: -1;
+   position: absolute;
+   transform: rotate( 
+360deg);
+}
+
+
 
 .after-bullet::after{
    content: "";

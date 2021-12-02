@@ -8,11 +8,13 @@ const About = () => {
    return (
       <div id="about" className="
          container 
-         md:px-7
-         lg:px-11
+         px-7
+         lg:px-14
          py-2
          mx-auto 
          py-24
+
+         text-center md:text-left
       " 
          style={{}}
       >

@@ -5,8 +5,8 @@ const Blogs = () => {
    return (
       <div className="
          container 
-         md:px-7
-         lg:px-11
+         px-7
+         lg:px-14
          py-2
          mx-auto 
          py-24
@@ -15,6 +15,10 @@ const Blogs = () => {
             <div className="blogs-dash mx-auto inline-block relative">
                <p className="text-lg font-extrabold about-h2 inline-block rounded badge-bg py-1.5 px-4">MY BLOGS</p>
             </div>
+         </div>
+
+         <div>
+               <div className="text-5xl text-center">Blogs under construction!</div>
          </div>
       </div>
    );

@@ -4,9 +4,9 @@ import Navigation from './Navigation/Navigation';
 
 const Header = () => {
    return (
-      <div className="flex align-center flex-col" style={{height:"100vh"}}>
-         <Navigation></Navigation>
-         <Banner></Banner>
+      <div className="">
+         {/* <Navigation></Navigation>
+         <Banner></Banner> */}
       </div>
    );
 };

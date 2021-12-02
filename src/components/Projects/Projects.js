@@ -15,8 +15,8 @@ const Projects = () => {
    return (
       <div id="projects" className="
          container 
-         md:px-7
-         lg:px-11
+         px-7
+         lg:px-14
          py-2
          mx-auto 
          py-24
