@@ -27,3 +27,49 @@
   outline-offset: -2px
 }
 
+@media only screen and (max-device-width : 336px) {
+  .display-name{
+    font-size: 1.8rem;
+  }
+  .t-designation{
+    font-size: 1.2rem;
+  }
+  .t-hello{
+    font-size: 1rem;
+  }
+  .banner-li{
+    font-size: 0.9rem;
+  }
+  .banner-li-last::after{
+    width: 0;
+    height: 0;
+  }
+  .about-btn{
+    padding: 12px 12px;
+  }
+  .banner-btn{
+    padding: 12px 12px;
+  }
+  .follow-small-screen-dash::after{
+    width: 150%!important;
+    right: -33px!important;
+  }
+  .about-dash::before{
+    width: 150%!important;
+    right: -33px!important;
+  }
+  .projects-dash::before{
+    width: 150%!important;
+    right: -33px!important;
+ }
+  .contact-dash::before{
+  width: 150%!important;
+  right: -33px!important;
+  }
+  .blogs-dash::before{
+    width: 150%!important;
+    right: -33px!important;
+ }
+
+}
+

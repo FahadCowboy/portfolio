@@ -32,11 +32,11 @@
 
 .follow-small-screen-dash::after{
    content: "";
-   width: 200%;
+   width: 236%;
    height: 2px;
    background-color: #fff;
    top: 19px;
-   right: -83px;
+   right: -94px;
    z-index: -1;
    position: absolute;
    transform: rotate( 

@@ -5,7 +5,7 @@ const Blogs = () => {
    return (
       <div className="
          container 
-         px-7
+         px-4
          lg:px-14
          py-2
          mx-auto 
@@ -18,7 +18,7 @@ const Blogs = () => {
          </div>
 
          <div>
-               <div className="text-5xl text-center">Blogs under construction!</div>
+               <div className="">Blogs under construction!</div>
          </div>
       </div>
    );

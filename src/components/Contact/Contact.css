@@ -1,10 +1,10 @@
 .contact-dash::before{
    content: "";
-   width: 200%;
+   width: 221%;
    height: 2px;
    background-color: #fff;
    top: 19px;
-   right: -94px;
+   right: -89px;
    z-index: -1;
    position: absolute;
    transform: rotate( 

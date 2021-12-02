@@ -1,11 +1,11 @@
 
 .projects-dash::before{
    content: "";
-   width: 200%;
+   width: 271%;
    height: 2px;
    background-color: #fff;
    top: 19px;
-   right: -83px;
+   right: -102px;
    z-index: -1;
    position: absolute;
    transform: rotate( 

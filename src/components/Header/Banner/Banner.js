@@ -14,7 +14,7 @@ const Banner = () => {
    return (
       <div className="
          container
-         px-7
+         px-4
          mx-auto 
          lg:px-14 
          py-5
@@ -36,17 +36,17 @@ const Banner = () => {
             <p className="text-lg font-extrabold rotate-minus follow-p rounded badge-bg py-1.5 px-4">FOLLOW ME</p>
          </div>
          <div className="w-full sm:pl-0 md:pl-28 text-center md:text-left">
-            <p className="theme-color text-xl mb-2">Hello! I am</p>
-            <h1 className="font-bold text-4xl sm:7xl font-extrabold mb-7">Mizanur Rahman</h1>
-            <h5 className="theme-color text-2xl font-bold font-extrabold">Jr. MERN Stack Web Developer</h5>
-            <ul className="mb-6">
-               <li className="after-bullet relative inline-block text-xl">Web Developer</li>
-               <li className="after-bullet relative inline-block text-xl pl-9">Programmer</li>
-               <li className="inline-block text-xl pl-9">Football Freak</li>
+            <p className="t-hello theme-color text-xl mb-2">Hello! I am</p>
+            <h1 className="display-name font-bold text-4xl sm:text-7xl font-extrabold mb-7">Mizanur Rahman</h1>
+            <h5 className="t-designation theme-color text-2xl font-bold font-extrabold">Jr. MERN Stack Developer</h5>
+            <ul className="mb-6 banner-ul">
+               <li className="banner-li after-bullet relative inline-block text-xl">Web Developer</li>
+               <li className="banner-li after-bullet relative inline-block text-xl pl-9">Programmer</li>
+               <li className="banner-li banner-li-last inline-block text-xl pl-9">Football Freak</li>
             </ul>
-            <div className="flex flex-wrap">
-               <a href={resume} download><button class="py-4 px-6 theme-bg text-base rounded-md">Get Resume</button></a>
-               <a href="#about" class="py-4 px-6 text-base rounded-md theme-outline ml-4">About Me</a>
+            <div className="flex justify-center md:justify-start">
+               <a href={resume} download><button class="banner-btn py-4 px-6 theme-bg text-base rounded-md">Get Resume</button></a>
+               <a href="#about" class="banner-btn py-4 px-6 text-base rounded-md theme-outline ml-4">About Me</a>
             </div>
             <div className="w-full flex flex-col" style={{}}>
                <div className="flex md:hidden justify-center items-center pb-11 pt-11">

@@ -55,7 +55,7 @@ const Contact = () => {
    return (
       <div id="contact" className="
       container 
-      px-7
+      px-4
       lg:px-14
       py-2
       mx-auto 

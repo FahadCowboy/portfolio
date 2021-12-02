@@ -14,7 +14,7 @@ const Navigation = () => {
       <div className="w-full sticky md:static top-0" style={{backgroundColor: toggle ? '#1d293a' : '#111a28'}}>
          <div className="
             container 
-            px-7
+            px-4
             lg:px-14
             py-2
             mx-auto 
