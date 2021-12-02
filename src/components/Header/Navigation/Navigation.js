@@ -11,7 +11,7 @@ const Navigation = () => {
    const [toggle, setToggle] = useState(false)
 
    return (
-      <div className="w-full sticky md:static top-0" style={{backgroundColor: toggle ? '#1d293a' : '#111a28'}}>
+      <div className="w-full sticky md:static top-0 z-10" style={{backgroundColor: toggle ? '#1d293a' : '#111a28'}}>
          <div className="
             container 
             px-4
@@ -23,7 +23,6 @@ const Navigation = () => {
             md:flex-row
             justify-between
             items-center
-            z-10
          "> 
 
             <div className="w-full flex justify-between items-center">

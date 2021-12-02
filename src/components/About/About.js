@@ -21,7 +21,7 @@ const About = () => {
          
          <div className="flex justify-center pb-16">
             <div className="about-dash mx-auto inline-block relative">
-               <p className="text-lg font-extrabold about-h2 inline-block rounded badge-bg py-1.5 px-4">ABOUT ME</p>
+               <h2 className="text-lg font-extrabold about-h2 rounded badge-bg py-1.5 px-4 z-1">ABOUT ME</h2>
             </div>
          </div>
 

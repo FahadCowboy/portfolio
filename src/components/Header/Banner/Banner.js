@@ -22,7 +22,6 @@ const Banner = () => {
          md:flex-row
          relative
          items-center
-         fixed
          
       "
       style={{height:"100vh", zIndex:"-123"}}>
