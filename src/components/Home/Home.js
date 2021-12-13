@@ -1,6 +1,6 @@
 import React from 'react';
 import About from '../About/About';
-import Blogs from '../Blogs/Blogs';
+import LoveToDo from '../Blogs/LoveToDo';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import GitHubContributions from '../GitHubContributions/GitHubContributions';
@@ -14,10 +14,9 @@ const Home = () => {
          <Navigation></Navigation>
          <Banner></Banner>
          <About></About>
+         <LoveToDo></LoveToDo>
          <Projects></Projects>
          <Contact></Contact>
-         <Blogs></Blogs>
-         <GitHubContributions></GitHubContributions>
          <Footer></Footer>
       </div>
    );

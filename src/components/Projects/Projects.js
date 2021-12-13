@@ -39,16 +39,25 @@ const Projects = () => {
                   </div>
                   <div className="mb-4">
                      {project.clientSideRepo && 
-                     <a className="text-2xl mr-2" href={project.clientSideRepo}  target="_blank" rel="noreferrer noopener">
-                        <FontAwesomeIcon icon={faGithub}/>
+                     <a className="text-sm font-bold py-1 px-2 rounded theme-bg dark-color mr-2" href={project.clientSideRepo}  target="_blank" rel="noreferrer noopener">
+                        UI 
+                        <span className="ml-2">
+                           <FontAwesomeIcon className="text-base" icon={faGithub}/>
+                        </span>
                      </a>}
                      {project.serverSideRepo && 
-                        <a className="text-2xl mr-2" href={project.serverSideRepo} target="_blank" rel="noreferrer noopener">
-                           <FontAwesomeIcon icon={faGithub}/>
+                        <a className="text-sm font-bold py-1 px-2 rounded theme-bg dark-color mr-2 mr-2" href={project.serverSideRepo} target="_blank" rel="noreferrer noopener">
+                           Server 
+                           <span className="ml-2">
+                           <FontAwesomeIcon className="text-base" icon={faGithub}/>
+                           </span>
                         </a>}
                      {project.liveSite && 
-                     <a className="text-2xl" href={project.liveSite} target="_blank" rel="noreferrer noopener">
-                        <FontAwesomeIcon icon={faExternalLinkAlt}/>
+                     <a className="text-sm font-bold py-1 px-2 rounded theme-bg dark-color mr-2" href={project.liveSite} target="_blank" rel="noreferrer noopener">
+                        Live 
+                        <span className="ml-2">
+                           <FontAwesomeIcon className="text-base" icon={faExternalLinkAlt}/>
+                        </span>
                      </a>}
                   </div>
                   <div className="flex flex-wrap mr-4">

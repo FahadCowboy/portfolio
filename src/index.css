@@ -39,6 +39,13 @@
   outline-offset: -2px
 }
 
+.icon{
+  transition: all 0.2s ease;
+}
+.icon:hover{
+  color: #00cf5e !important;
+}
+
 @media only screen and (max-device-width : 336px) {
   .display-name{
     font-size: 1.8rem;

@@ -95,11 +95,11 @@ const Contact = () => {
                   </div>
                   <div className="mb-4">
                      <h2 className="text-3xl theme-color font-bold">LinkedIn</h2>
-                     <p className="text-lg text-white">fahadmrf <a className="text-xl font-icon" href="https://www.linkedin.com/in/fahadmrf/" target="_blank" rel="noreferrer noopener"><FontAwesomeIcon className="ml-2 .icon" icon={faExternalLinkAlt}/></a></p>
+                     <p className="text-lg text-white">fahadmrf <a className="text-xl icon" href="https://www.linkedin.com/in/fahadmrf/" target="_blank" rel="noreferrer noopener"><FontAwesomeIcon className="ml-2 .icon" icon={faExternalLinkAlt}/></a></p>
                   </div>
                   <div className="mb-4">
                      <h2 className="text-3xl theme-color font-bold">GitHub</h2>
-                     <p className="text-lg text-white">FahadCowboy <a className="text-xl" href="https://github.com/FahadCowboy" target="_blank" rel="noreferrer noopener"><FontAwesomeIcon className="ml-2" icon={faExternalLinkAlt}/></a></p>
+                     <p className="text-lg text-white">FahadCowboy <a className="text-xl icon" href="https://github.com/FahadCowboy" target="_blank" rel="noreferrer noopener"><FontAwesomeIcon className="ml-2" icon={faExternalLinkAlt}/></a></p>
                   </div>
                   <div className="mb-4">
                      <h2 className="text-3xl theme-color font-bold">Address</h2>

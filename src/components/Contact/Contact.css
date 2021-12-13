@@ -1,19 +1,16 @@
 .contact-dash::before{
    content: "";
-   width: 221%;
+   width: 222.5%;
    height: 2px;
    background-color: #fff;
    top: 19px;
-   right: -89px;
+   right: -91px;
    z-index: -1;
    position: absolute;
    transform: rotate( 
 360deg);
 }
 
-.icon:hover{
-   color: red !important;
-}
 
 .input-select:focus{
    border: none;

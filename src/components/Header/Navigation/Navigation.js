@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './Navigation.css'
 import { faTimesCircle } from '@fortawesome/free-regular-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
    const [toggle, setToggle] = useState(false)
@@ -26,7 +27,7 @@ const Navigation = () => {
 
             <div className="w-full flex justify-between items-center">
                <div className="w-12">
-                  <img className="w-full" src={logo} alt="" />
+                  <Link to="/"><img className="w-full" src={logo} alt="" /></Link>
                </div>
                <div className="w-9 h-9">
                   {

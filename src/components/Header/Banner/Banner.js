@@ -1,7 +1,7 @@
 import { faGithub, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import resume from './../../../MizanurRahmanResume.pdf'
 import './Banner.css';
 
@@ -12,7 +12,7 @@ const Banner = () => {
 
 
    return (
-      <div className="
+      <div id="banner" className="
          container
          px-4
          mx-auto 
@@ -26,10 +26,10 @@ const Banner = () => {
       style={{height:"82vh", zIndex:"-123"}}>
          <div className="flex flex-col hidden md:flex items-center justify-between absolute left-0 follow-wrap" style={{}}>
             <ul className="follow-dash">
-               <li className="mb-3"><a className="text-xl" href="https://github.com/FahadCowboy" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
-               <li className="mb-3"><a className="text-xl" href="https://www.linkedin.com/in/fahadmrf/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-               <li className="mb-3"><a className="text-xl" href="https://twitter.com/FahadCowboy" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a></li>
-               <li className="mb-3"><a className="text-xl" href="https://www.instagram.com/zero_carbine/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a></li>
+               <li className="mb-3"><a className="text-xl icon" href="https://github.com/FahadCowboy" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
+               <li className="mb-3"><a className="text-xl icon" href="https://www.linkedin.com/in/fahadmrf/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+               <li className="mb-3"><a className="text-xl icon" href="https://twitter.com/FahadCowboy" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a></li>
+               <li className="mb-3"><a className="text-xl icon" href="https://www.instagram.com/zero_carbine/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a></li>
             </ul>
             <p className="text-lg font-extrabold rotate-minus follow-p rounded badge-bg py-1.5 px-4">FOLLOW ME</p>
          </div>
