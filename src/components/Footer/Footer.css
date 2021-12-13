@@ -9,7 +9,7 @@
     left: 0;
     bottom: 0px;
     background-color: #00cf5e;
-    border-radius: 0 0 0 0.25rem;
+    /* border-radius: 0 0 0 0.25rem; */
 }
 
 .language-scale-en::after{
@@ -20,7 +20,7 @@
     left: 0;
     bottom: 0px;
     background-color: #00cf5e;
-    border-radius: 0 0 0 0.25rem;
+    /* border-radius: 0 0 0 0.25rem; */
 }
 
 .language-scale-hn::after{
@@ -31,5 +31,5 @@
     left: 0;
     bottom: 0px;
     background-color: #00cf5e;
-    border-radius: 0 0 0 0.25rem;
+    /* border-radius: 0 0 0 0.25rem; */
 }

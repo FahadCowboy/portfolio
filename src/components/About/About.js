@@ -2,7 +2,6 @@ import React from 'react';
 import portrait from './../../For-DP-Converted-to-1-Megabyte.jpg'
 import './About.css'
 import resume from './../../MizanurRahmanResume.pdf'
-import { Link } from 'react-router-dom';
 
 const About = () => {
    return (
@@ -12,7 +11,7 @@ const About = () => {
          lg:px-14
          py-2
          mx-auto 
-         py-24
+         py-16
 
          text-center md:text-left
       " 
@@ -29,8 +28,8 @@ const About = () => {
          
             <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 lg:gap-24"> 
                <div className="order-2 md:order-1">
-                  <div className="text-lg">
-                     <p className="leading-9">Hello! I'm Zonayed Ahmed, a passionate software engineer. I develop web applications, mobile applications, and desktop applications. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I have graduated with a bachelor's degree in Computer Science Engineering from Chandigarh University at Punjab, India in 2020. I am available for any kind of job opportunity that suits my interests.</p>
+                  <div className="text-base">
+                     <p className="leading-7">Hello! I'm Mizanur Rahman, a passionate programmer and Web developer. I'm a junior full-stack web developer based on JavaScript, Node JS, React, and Express. My core skill is based on JavaScript, and I love to do most of the things using JavaScript. I learned Basic UI Design using HTML and CSS years ago, but in the meantime, I realized that it was nothing but a drop of water in the ocean. I had a huge appetite to conquer the Web but didn't have a proper guideline. Then I started pushing myself to make a big jump into the JavaScript universe. After blindly running into a long, dark tunnel of frustration for weeks, months, and even years, I realised that this is the natural behaviour of the programming universe. I made my own path and ran by myself until I shifted into React. Luckily, I found "Programming Hero" and was taught React for the Front End and Express for the Back End by my idol of this journey, Jhanker Mahbub. Now I feel I'm skilled enough to get hired as a Junior Web Developer by any international or local organization.I am available for any kind of job opportunity that suits my interests.</p>
                   </div>
                   
                   <div className="pt-8">
@@ -39,8 +38,8 @@ const About = () => {
                   </div>
                </div>
                <div className="flex justify-center align-center order-1 md:order-2 my-auto">
-                  <div className="w-80 p-4 rounded-lg">
-                     <img className="rounded-lg" src={portrait} alt="" />
+                  <div className="w-80 p-4 rounded-lg portrait mb-5 md:mb-0">
+                     <img className=" rounded-lg portrait-grayscale" src={portrait} alt="" />
                   </div>
                </div>
             </div>

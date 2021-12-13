@@ -15,3 +15,14 @@
    transform: rotate( 
 360deg);
 }
+
+.portrait img{
+  filter: grayscale(0.7);
+  transition: all 1s;
+  transform: scale(1);
+}
+
+.portrait:hover img{
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
