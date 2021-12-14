@@ -38,9 +38,9 @@ const Banner = () => {
             <h1 className="display-name font-bold text-4xl sm:text-7xl font-extrabold mb-7">Mizanur Rahman</h1>
             <h5 className="t-designation theme-color text-2xl font-bold font-extrabold">Jr. MERN Stack Developer</h5>
             <ul className="mb-6 banner-ul">
-               <li className="banner-li after-bullet relative inline-block text-xl">Web Developer</li>
-               <li className="banner-li after-bullet relative inline-block text-xl pl-9">Programmer</li>
-               <li className="banner-li banner-li-last inline-block text-xl pl-9">Football Freak</li>
+               <li className="banner-li after-bullet relative inline-block text-sm md:text-xl">Web Developer</li>
+               <li className="banner-li after-bullet relative inline-block text-sm md:text-xl pl-7">Programmer</li>
+               <li className="banner-li banner-li-last inline-block text-sm md:text-xl pl-7">Football Freak</li>
             </ul>
             <div className="flex justify-center md:justify-start">
                <a href={resume} download class="banner-btn py-4 px-6 theme-bg text-base rounded-md">Get Resume</a>
@@ -53,10 +53,10 @@ const Banner = () => {
                   </div>
                </div>
                <ul className="flex md:hidden gap-4 justify-center">
-                  <li className="mb-3"><Link className="text-xl" to="#" target="_black d-block"><FontAwesomeIcon icon={faGithub} /></Link></li>
-                  <li className="mb-3"><Link className="text-xl" to="#" target="_black d-block"><FontAwesomeIcon icon={faLinkedinIn} /></Link></li>
-                  <li className="mb-3"><Link className="text-xl" to="#" target="_black d-block"><FontAwesomeIcon icon={faTwitter} /></Link></li>
-                  <li className="mb-3"><Link className="text-xl" to="#" target="_black d-block"><FontAwesomeIcon icon={faInstagram} /></Link></li>
+                  <li className="mb-3"><a href="https://github.com/FahadCowboy" className="text-xl" to="#" target="_black d-block"><FontAwesomeIcon icon={faGithub} /></a></li>
+                  <li className="mb-3"><a href="https://www.linkedin.com/in/fahadmrf/" className="text-xl" to="#" target="_black d-block"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                  <li className="mb-3"><a href="https://twitter.com/FahadCowboy" className="text-xl" to="#" target="_black d-block"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                  <li className="mb-3"><a href="https://www.instagram.com/zero_carbine/" className="text-xl" to="#" target="_black d-block"><FontAwesomeIcon icon={faInstagram} /></a></li>
                </ul>
             </div>
          </div>
